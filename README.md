@@ -29,8 +29,6 @@ Project Organization
     │   ├── train.py       <- Script to train models
     │   │                    
     │   ├── evaluate.py    <- Script to evaluate models using kpi's
-    │   │
-    │   └── predict.py     <- Script to use trained models to make predictions
     │
     └── LICENSE            <- License
 
