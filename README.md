@@ -1,4 +1,3 @@
-DSDSDA
 # Predicción del Sistema Operativo de un Usuario a Partir de su Comportamiento Digital
 ==============================
 
