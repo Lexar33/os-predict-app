@@ -1,5 +1,4 @@
 # Predicción del Sistema Operativo de un Usuario a Partir de su Comportamiento Digital
-==============================
 
 El modelo OVR predice qué sistema operativo usa el usuario acorde al comportamiento de usuarios en una plataforma digital, donde cada fila representa una sesión de navegación
 
