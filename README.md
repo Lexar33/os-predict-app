@@ -33,11 +33,8 @@ Project Organization
     └── LICENSE            <- License
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
+Pasos de ejecución
 --------
-Paso de ejecución
 
 * pip install -r requirements.txt
 * python .\src\make_dataset.py
