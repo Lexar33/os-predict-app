@@ -4,12 +4,11 @@
 import pandas as pd
 import numpy as np
 import os
-from . import functions as fu
+import functions as fu
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import RandomOverSampler
-
 
 model_features=["paginas",
                 "valor",
@@ -32,6 +31,7 @@ model_features=["paginas",
                 "hora_dia_imput_mañana",
                 "hora_dia_imput_noche",
                 "hora_dia_imput_tarde"]
+
 # Leemos los archivos csv
 def read_file_csv(filename):
     current_dir = os.path.dirname(__file__)
@@ -117,7 +117,6 @@ def data_exporting(df, filename):
     current_dir = os.path.dirname(__file__)
     df.to_csv(os.path.join(current_dir,"..","data","processed", filename))
     print(filename, "exportado correctamente en la carpeta processed")
-    return 0
 
 
 def main():

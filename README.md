@@ -40,6 +40,7 @@ Project Organization
 Paso de ejecución
 
 * pip install -r requirements.txt
-* python make_dataset.py
-* python train.py
+* python .\src\make_dataset.py
+* python .\src\train.py
+* python .\src\evaluate.py
 * uvicorn main:app --reload
